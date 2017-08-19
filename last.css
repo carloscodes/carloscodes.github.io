@@ -1,0 +1,207 @@
+.scroll-down {
+  opacity: 1;
+  -webkit-transition: all .5s ease-in 3s;
+  transition: all .5s ease-in 3s;
+}
+
+.scroll-down {
+  position: relative; /*if absolute, moves around*/
+  bottom: 150px; /*previously at 30px but not visible to user immediately on smaller screens*/
+  left: 50%;
+  margin-left: -16px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #72160c;
+  background-size: 14px auto;
+  border-radius: 50%;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.scroll-down:before {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 6px);
+    transform: rotate(-45deg);
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid #72160c;
+    border-width: 0px 0 2px 2px;
+}
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+
+p {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 45px;
+}
+
+.info {
+  text-align: left;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+.land {
+  padding-top: 50px;
+}
+
+.img-fluid {
+  height: auto;
+  max-width: 100%;
+}
+
+.intro-section h1 {
+  font-size: 30px;
+}
+
+span {
+  font-size: 50px;
+}
+
+.lead {
+  font-size: 25px;
+}
+
+#formal {
+    display: inline-block;
+    margin: auto;
+    padding-top: 2px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#details {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/*fontawesome icons*/
+.awesome {
+  padding-right: 15px;
+}
+
+/*fontawesome icons in contact section*/
+.reach {
+  padding-right: 10px;
+  font-size: 30px;
+}
+
+.tel,.tel:visited { /*for small screens */
+  color:#fff;
+  background-color:#000;
+  padding:1em;
+  text-decoration:none;
+  }
+
+  .tel:hover,.tel:focus {
+  color:#000;
+  background-color:#fff;
+  }
+
+  @media screen and (min-width: 28.5em) { /* for larger screens */
+    .tel,.tel:visited {
+      background:none;
+      cursor:default;
+  }
+
+    .tel,.tel:focus {
+      color:#000;
+  }
+}
+ 
+.email {
+  color: #00F2AF;
+  white-space: initial;
+}
+
+.email:hover, .email:focus {
+  color: #00F2AF; 
+}
+ 
+
+/*devicons*/
+#icons {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 8rem;
+  display: inline;
+}
+
+#map {
+  width: 90%;
+  height: 430px;
+  float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blog-section {
+  text-align: center;
+}
+
+.blogs-head {
+  padding-bottom: 45px;
+}
+
+.blog-preview {
+  text-align: left;
+}
+
+footer {
+  margin-top: 50px;
+  bottom:0px;
+  width: 100%;
+  background-color: #383838;
+  height: 80px;
+  padding-top: 30px;
+  text-align: center;
+  color: #ffffff;
+}
