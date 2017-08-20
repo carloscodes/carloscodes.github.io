@@ -18,20 +18,6 @@ html {
 }
 
 
-@media(min-width:767px) {
-    .navbar {
-        padding: 20px 0;
-        background-color: #f4f4f4;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out
-    }
-
-    .top-nav-collapse {
-        padding: 0;
-        background-color: #383838;
-    }
-}
 
 /*For SmartPhone screens*/ 
 @media only screen and (max-width: 480px) {
