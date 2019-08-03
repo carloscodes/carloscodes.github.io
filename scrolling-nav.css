@@ -5,56 +5,54 @@
  */
 
 body {
-    width: 100%;
-    height: 100%;
-    color: black;
-    background-color: #fff;
-    font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  height: 100%;
+  color: black;
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
 }
 
 html {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
+@media (min-width: 767px) {
+  .navbar {
+    padding: 20px 0;
+    background-color: #f4f4f4;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
 
-@media(min-width:767px) {
-    .navbar {
-        padding: 20px 0;
-        background-color: #f4f4f4;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out
-    }
-
-    .top-nav-collapse {
-        padding: 0;
-        background-color: #383838;
-    }
+  .top-nav-collapse {
+    padding: 0;
+    background-color: #383838;
+  }
 }
 
 .intro-section {
-    padding-top: 100px;
-    text-align: center;
+  padding-top: 100px;
+  text-align: center;
 }
 
 .about-section {
-    padding-top: 150px;
+  padding-top: 150px;
 }
 
 .services-section {
-    padding-top: 150px;
+  padding-top: 150px;
 }
 
 .skill-section {
-    padding-top: 150px;
+  padding-top: 150px;
 }
 
 .contact-section {
-    padding-top: 150px;
+  padding-top: 150px;
 }
 
-.blog-section {
-    padding-top: 150px;
+.work-section {
+  padding-top: 150px;
 }
-
